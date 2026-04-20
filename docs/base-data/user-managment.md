@@ -2,6 +2,6 @@
 sidebar_position: 17
 ---
 
-# User Managment
+# User Management
 
-Documentation for User Managment.
+Documentation for user management.

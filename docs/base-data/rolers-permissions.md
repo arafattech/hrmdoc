@@ -2,6 +2,6 @@
 sidebar_position: 16
 ---
 
-# Roler Permissions
+# Role Permissions
 
-Documentation for Roler Permissions.
+Documentation for role permissions.

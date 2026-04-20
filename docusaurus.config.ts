@@ -5,8 +5,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Manufacturing Execution System (MES)',
-  tagline: 'Web-Based Software',
+  title: 'HR Management & Base Data',
+  tagline: 'Documentation for HR management and base data',
   favicon: 'img/mes-logo.png',
 
   customFields: {
@@ -48,13 +48,6 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -68,7 +61,7 @@ const config: Config = {
       {
         hashed: true,
         indexDocs: true,
-        indexBlog: true,
+        indexBlog: false,
         indexPages: false,
         language: "en",
       },
@@ -86,9 +79,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'MES',
+      title: 'HR Docs',
       logo: {
-        alt: 'smart-industry Logo',
+        alt: 'HR documentation logo',
         src: 'img/mes-logo.png',
       },
       items: [
@@ -96,13 +89,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Workflow',
+          label: 'Documentation',
         },
-        // blog link url
-        // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://mesdoc.vercel.app',
-          label: 'MES',
+          label: 'Site',
           position: 'right',
         },
       ],
@@ -114,7 +105,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Workflow',
+              label: 'Documentation',
               to: '/docs/intro',
             },
           ],
@@ -131,7 +122,7 @@ const config: Config = {
             //   href: 'https://discordapp.com/invite/docusaurus',
             // },
             {
-              label: 'MES',
+              label: 'Site',
               href: 'https://mesdoc.vercel.app',
             },
           ],
@@ -150,7 +141,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} MES. Built with <a href="https://hybri.tech" target="_blank"> Hybritech Innovations Ltd</a>`
+      copyright: `Copyright © ${new Date().getFullYear()} HR Management & Base Data. Built with <a href="https://hybri.tech" target="_blank">Hybritech Innovations Ltd</a>`
     },
     prism: {
       theme: prismThemes.github,

@@ -14,7 +14,7 @@ The Analytics dashboard provides a comprehensive visual overview of key human re
 ## View Details
 The Analytics Dashboard contains multiple detailed widgets and charts that provide an in-depth view of various HR operations. Below is a breakdown of the highlighted sections on the dashboard:
 
-![Analytics Dashboard Details](/img/hr/analytics/anaytics-deshboard-details.png)
+![Analytics Dashboard Details](/img/hr/analytics/gemini.png)
 
 **1. Quick Navigation Links**
 A block of shortcuts to easily access core HR modules with one click:
@@ -45,41 +45,23 @@ This section offers financial insights regarding salary:
 - Visualizes the distribution of employees into different company groupings (e.g., Group G, A, B, C) and tracks the count of ungrouped staff.
 
 
-## Analytics Date Range
-Users can filter the analytics data by a specific date range to analyze metrics over a certain period.
+## Analytics Filter by Name and Range
+Users can narrow the analytics data by employee name and date range to analyze a specific person or team over a chosen period.
 
-**Steps to Filter by Date Range:**
-1. Locate the **Date Range** selector at the top of the Analytics dashboard.
-2. Click on the date inputs to pick a specific **Start Date** and **End Date**.
-3. Once the dates are selected, the dashboard charts and metrics will update to reflect the customized time period.
+**Steps to Filter by Name and Range:**
+1. Locate the **Name** search field at the top of the Analytics dashboard.
+2. Type the employee name or keyword you want to search for.
+3. Use the **Date Range** selector to choose a specific **Start Date** and **End Date**.
+4. After both filters are selected, the dashboard charts and metrics update to show the matching results.
 
-![Analytics Date Range](/img/hr/analytics/analytics-date-range.png)
-## Analytics Date Range Filter Department
-You can further drill down into the analytics data by filtering it for specific departments within your chosen date range.
+![Analytics Date Range](/img/hr/analytics/gemini.png)
 
-**Steps to Select Department:**
-1. Click on the **Department** dropdown filter.
-2. A list of available departments in the organization will be displayed.
-3. Choose the department(s) you wish to include in your analysis.
+## Analytics Apply and Clear All
+If you want to apply the selected filters or clear them all and return the dashboard to its default view:
 
-![Analytics Date Range Filter Department](/img/hr/analytics/analytics-date-range-filter-dep.png)
-
-## Analytics Date Range Filter Department Apply
-After selecting the desired department filters:
-
-**Steps to Apply Filters:**
-1. Click the dropdown to make your selection and then click the **Apply** or search icon (if applicable) to confirm.
-2. The analytics dashboard will process your selected date range and department filters.
-3. The visual charts and data will immediately refresh, displaying customized metrics related solely to the selected department(s).
-
-![Analytics Date Range Filter Department Apply](/img/hr/analytics/analytics-date-range-dep-apply.png)
-
-## Analytics Reset Button
-If you want to clear all active filters and return the dashboard to its default, comprehensive view:
-
-**Steps to Reset Filters:**
-1. Locate and click on the **Reset** button near the top filter options.
-2. This action immediately clears any selected date ranges and department filters.
-3. The dashboard will revert to its initial, unfiltered view, displaying overall company analytics data.
+**Steps to Use These Controls:**
+1. Locate the **Apply** button near the top filter options and click it to load the selected name and date range filters.
+2. Locate the **Clear All** button to remove all selected filters at once.
+3. After clearing, the dashboard will return to its initial, unfiltered view and show overall company analytics data.
 
 ![Analytics Reset Button](/img/hr/analytics/analytics-reset-btn.png)
