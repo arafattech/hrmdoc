@@ -4,7 +4,7 @@ sidebar_position: 0
 
 # Documentation
 
-Welcome to the **HR Management and Base Data Documentation**. Select a section below to get started.
+Welcome to the **HRM Documentation**. Select a section below to get started.
 
 <div className="row">
 
@@ -22,10 +22,4 @@ Welcome to the **HR Management and Base Data Documentation**. Select a section b
     </a>
   </div>
 
-  <div className="col col--6 margin-bottom--lg">
-    <a className="card padding--lg shadow--md" href="category/base-data" style={{height: '100%', textDecoration: 'none', color: 'inherit'}}>
-      <h3>Base Data</h3>
-      <p>Manage fundamental data settings, configurations, and master data.</p>
-    </a>
-  </div>
 </div>

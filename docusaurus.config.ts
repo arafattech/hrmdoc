@@ -5,7 +5,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'HR Management & Base Data',
+  title: 'HRM Documentation',
   tagline: 'HybriTech',
   favicon: 'img/mes-logo.png',
 
@@ -141,7 +141,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} HR Management & Base Data. Built with <a href="https://hybri.tech" target="_blank">Hybritech Innovations Ltd</a>`
+      copyright: `Copyright © ${new Date().getFullYear()} HRM Documentation. Built with <a href="https://hybri.tech" target="_blank">Hybritech Innovations Ltd</a>`
     },
     prism: {
       theme: prismThemes.github,

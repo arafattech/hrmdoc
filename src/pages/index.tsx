@@ -11,7 +11,7 @@ const sections = [
   {
     title: 'HR Management',
     description:
-      'Cover employee records, attendance, payroll, leave, and related HR processes.',
+      'Cover employee records, attendance, payroll, leave, and related HR processes, plus user and role administration.',
     to: '/docs/category/hr-management',
   },
   {
@@ -19,12 +19,6 @@ const sections = [
     description:
       'Document the mobile-facing HR experience for employees and supervisors.',
     to: '/docs/category/mobile-application',
-  },
-  {
-    title: 'Base Data',
-    description:
-      'Manage core master data, setup records, and foundational configuration.',
-    to: '/docs/category/base-data',
   },
 ];
 
@@ -58,7 +52,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={siteConfig.title}
-      description="Documentation for HR management and base data">
+      description="HRM documentation">
       <HomepageHeader />
       <main>
         <section className={styles.sections}>

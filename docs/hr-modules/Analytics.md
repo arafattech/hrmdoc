@@ -64,4 +64,4 @@ If you want to apply the selected filters or clear them all and return the dashb
 2. Locate the **Clear All** button to remove all selected filters at once.
 3. After clearing, the dashboard will return to its initial, unfiltered view and show overall company analytics data.
 
-![Analytics Reset Button](/img/hr/analytics/analytics-reset-btn.png)
+![Analytics Apply and Clear All](/img/hr/analytics/gemini.png)

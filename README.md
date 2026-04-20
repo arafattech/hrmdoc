@@ -1,6 +1,6 @@
-# HR Management and Base Data Documentation
+# HRM Documentation
 
-This site documents the HR management and base data sections of the system.
+This site documents the HR management and mobile application sections of the system.
 
 ## Installation
 
