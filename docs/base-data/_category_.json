@@ -1,0 +1,8 @@
+{
+  "label": "Base Data",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Base Data Management"
+  }
+}
