@@ -4,10 +4,13 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 4.5rem 0 4rem;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.14), transparent 45%),
+    linear-gradient(135deg, #17324d 0%, #1d4c72 52%, #0f2234 100%);
 }
 
 @media screen and (max-width: 996px) {
@@ -22,17 +25,10 @@
   justify-content: center;
 }
 
-.metadata {
-  margin: 1.5rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
+.heroMeta {
+  margin: 0 0 1.5rem;
+  font-size: 1rem;
   opacity: 0.9;
-}
-
-.metadata p {
-  margin: 0;
-  font-size: 1.1rem;
 }
 
 .sections {

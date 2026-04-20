@@ -6,11 +6,11 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 const config: Config = {
   title: 'HR Management & Base Data',
-  tagline: 'Documentation for HR management and base data',
+  tagline: 'HybriTech',
   favicon: 'img/mes-logo.png',
 
   customFields: {
-    preparedBy: 'Hybri Tech',
+    preparedBy: 'HybriTech',
     date: '13-01-2025',
     version: '1.0.0',
   },

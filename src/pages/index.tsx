@@ -30,26 +30,15 @@ const sections = [
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  const {customFields} = siteConfig;
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          HRM
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-
-        <div className={styles.metadata}>
-          <p>
-            <strong>Prepared By:</strong> {customFields.preparedBy as string}
-          </p>
-          <p>
-            <strong>Date:</strong> {customFields.date as string}
-          </p>
-          <p>
-            <strong>Version:</strong> {customFields.version as string}
-          </p>
-        </div>
+        <p className={styles.heroMeta}>
+          <strong>Prepared By:</strong> {siteConfig.customFields.preparedBy as string}
+        </p>
 
         <div className={styles.buttons}>
           <Link

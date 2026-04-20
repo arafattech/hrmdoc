@@ -6,6 +6,12 @@ sidebar_position: 0
 
 The **Mobile Application** section covers the HR functions available on mobile devices for employees and supervisors.
 
+## Download
+
+Download the mobile application package from the link below:
+
+- [Mobile Application Download](https://drive.google.com/file/d/1W0TSLP1SB9MgVuwfHalHup9FOy9aoXlu/view)
+
 ## What It Includes
 
 - **Employee self-service** for viewing profile, attendance, leave, and payroll data
