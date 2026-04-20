@@ -10,23 +10,6 @@ The **Employee List** page displays all employees in the system. It shows key de
 ![Employee List](/img/hr/employee-management/employee/employee-list.png)
 
 ---
-## Selecting Employees from the List
-
-You can select one or multiple employees using the checkboxes on the left side of the list. As you select employees, an **Action** button will appear at the top, along with a counter showing how many employees have been selected.
-
-![Employee List Select Employee](/img/hr/employee-management/employee/employee-list-select.png)
-
-## Selected Employee Actions (Active / Inactive)
-
-Once you have selected an employee, click the **Action** button to open the actions dialog. This menu allows you to quickly adjust the status of the selected employee(s):
-- If the selected employee is currently **Inactive**, you can choose to make them **Active**.
-- If the selected employee is currently **Active**, you can choose to make them **Inactive**.
-
-This is a fast way to update employee statuses without needing to edit their individual profiles.
-
-![Employee Selected Action Click to Active Or Inactive](/img/hr/employee-management/employee/employee-list-select-action-click.png)
-
----
 ## Add New Employee
 
 To add a new employee, click the **New** button on the top right of the Employee List page. A dialog box will appear with multiple tabs: **Core Data**, **Personal Data**, **Salary**, **Bank**, **Assets**, and **Attachments**.
