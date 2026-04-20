@@ -18,55 +18,55 @@ These screenshots show the mobile app flow step by step, from sign-in to daily H
 
 ### Step 1: Login Page
 
-![Login Page](/img/hr/mobile/login.jpeg)
+<img className="mobile-shot" src="/img/hr/mobile/01_login-page.jpeg" alt="Login Page" />
 
 Users sign in with email or phone number and password.
 
 ### Step 2: Module Selection
 
-![Module Selection](/img/hr/mobile/module-selection.jpeg)
+<img className="mobile-shot" src="/img/hr/mobile/02_module-selection.jpeg" alt="Module Selection" />
 
 Users choose between HR Management and other available modules.
 
-### Step 3: Profile Page
+### Step 3: Home Dashboard
 
-![Profile Page](/img/hr/mobile/profile.jpeg)
+<img className="mobile-shot" src="/img/hr/mobile/03_home-dashboard.jpeg" alt="Home Dashboard" />
 
-The profile page shows employee identity, job information, and basic employment details.
+This screen shows the main HR summary, including live work time, attendance status, and key counters.
 
 ### Step 4: Navigation and Biometrics
 
-![Navigation and Biometrics](/img/hr/mobile/navigation-biometrics.jpeg)
+<img className="mobile-shot" src="/img/hr/mobile/04_navigation-biometrics.jpeg" alt="Navigation and Biometrics" />
 
 This screen shows the navigation drawer and the biometric login prompt.
 
-### Step 5: Attendance Summary
+### Step 5: Profile Page
 
-![Attendance Summary](/img/hr/mobile/attendance-summary.jpeg)
+<img className="mobile-shot" src="/img/hr/mobile/09_profile-page.jpeg" alt="Profile Page" />
 
-This screen highlights live work time, check-in status, and monthly presence totals.
+The profile page shows employee identity, job information, and basic employment details.
 
 ### Step 6: Attendance List
 
-![Attendance List](/img/hr/mobile/attendance-list.jpeg)
+<img className="mobile-shot" src="/img/hr/mobile/05_attendance-list.jpeg" alt="Attendance List" />
 
 This list displays recent attendance records and work duration details.
 
 ### Step 7: Calendar
 
-![Calendar](/img/hr/mobile/calendar.jpeg)
+<img className="mobile-shot" src="/img/hr/mobile/06_calendar.jpeg" alt="Calendar" />
 
 The calendar highlights holidays, leave types, and schedule markers across the month.
 
 ### Step 8: Quick Actions
 
-![Quick Actions](/img/hr/mobile/quick-actions.jpeg)
+<img className="mobile-shot" src="/img/hr/mobile/07_quick-actions.jpeg" alt="Quick Actions" />
 
 This screen gives shortcuts for attendance, leave, calendar, assets, and notices.
 
 ### Step 9: Assigned Assets
 
-![Assigned Assets](/img/hr/mobile/assets.jpeg)
+<img className="mobile-shot" src="/img/hr/mobile/08_assigned-assets.jpeg" alt="Assigned Assets" />
 
 This screen lists employee assets such as devices and equipment with issue details.
 
