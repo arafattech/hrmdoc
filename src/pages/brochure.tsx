@@ -32,7 +32,7 @@ export default function Brochure(): ReactNode {
         <section className={styles.hero}>
           <div className={styles.heroCopy}>
             <p className={styles.kicker}>Company Brochure</p>
-            <h1>Brochure design with a more editorial, premium layout.</h1>
+            <h2>Brochure design with a more editorial, premium layout.</h2>
             <p className={styles.lead}>
               This page presents the brochure artwork in a cleaner structure, with stronger spacing,
               feature callouts, and a clearer separation between the front and back sides.
