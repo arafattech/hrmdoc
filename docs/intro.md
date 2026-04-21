@@ -16,6 +16,13 @@ Welcome to the **HRM Documentation**. Select a section below to get started.
   </div>
 
   <div className="col col--6 margin-bottom--lg">
+    <a className="card padding--lg shadow--md" href="category/task-management" style={{height: '100%', textDecoration: 'none', color: 'inherit'}}>
+      <h3>Task Management</h3>
+      <p>Task tracking, assignment, priority, and progress management.</p>
+    </a>
+  </div>
+
+  <div className="col col--6 margin-bottom--lg">
     <a className="card padding--lg shadow--md" href="category/mobile-application" style={{height: '100%', textDecoration: 'none', color: 'inherit'}}>
       <h3>Mobile Application</h3>
       <p>Mobile-facing HR workflows for employees and supervisors.</p>

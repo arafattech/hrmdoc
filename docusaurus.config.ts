@@ -92,6 +92,11 @@ const config: Config = {
           label: 'Documentation',
         },
         {
+          to: '/brochure',
+          position: 'left',
+          label: 'Brochure',
+        },
+        {
           href: 'https://mesdoc.vercel.app',
           label: 'Site',
           position: 'right',

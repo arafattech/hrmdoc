@@ -15,6 +15,18 @@ const sections = [
     to: '/docs/category/hr-management',
   },
   {
+    title: 'Task Management',
+    description:
+      'Track tasks, assignments, priorities, and progress in a standalone module.',
+    to: '/docs/category/task-management',
+  },
+  {
+    title: 'Brochure',
+    description:
+      'Showcase the company brochure, services, and product highlights.',
+    to: '/brochure',
+  },
+  {
     title: 'Mobile Application',
     description:
       'Document the mobile-facing HR experience for employees and supervisors.',
