@@ -21,7 +21,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://mesdoc.vercel.app',
+  url: 'https://hrmdocument.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -97,7 +97,7 @@ const config: Config = {
           label: 'Brochure',
         },
         {
-          href: 'https://mesdoc.vercel.app',
+          href: 'https://hrmdocument.vercel.app/brochure',
           label: 'Site',
           position: 'right',
         },
@@ -128,7 +128,7 @@ const config: Config = {
             // },
             {
               label: 'Site',
-              href: 'https://mesdoc.vercel.app',
+              href: 'https://hrmdocument.vercel.app',
             },
           ],
         },
