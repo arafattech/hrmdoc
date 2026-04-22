@@ -39,10 +39,10 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
-.heroCopy h1 {
+.heroCopy h2 {
   margin: 0;
-  max-width: 12ch;
-  font-size: clamp(2.4rem, 5vw, 4.6rem);
+  max-width: 42ch;
+  font-size: clamp(2.4rem, 5vw, 2rem);
   line-height: 0.96;
   letter-spacing: -0.04em;
 }
@@ -170,6 +170,48 @@
   display: block;
   width: 100%;
   height: auto;
+}
+
+:global([data-theme='dark']) .page {
+  background:
+    radial-gradient(circle at top left, rgba(69, 167, 188, 0.2), transparent 28%),
+    radial-gradient(circle at 90% 20%, rgba(23, 71, 90, 0.28), transparent 24%),
+    linear-gradient(180deg, #08141a 0%, #0d1c24 100%);
+}
+
+:global([data-theme='dark']) .summaryPanel,
+:global([data-theme='dark']) .artCard {
+  border-color: rgba(121, 188, 204, 0.18);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.34);
+}
+
+:global([data-theme='dark']) .summaryPanel {
+  background: linear-gradient(180deg, #11222a 0%, #0d1a20 100%);
+  color: #e4f4f8;
+}
+
+:global([data-theme='dark']) .summaryTop {
+  background: linear-gradient(135deg, #14323d 0%, #10262f 100%);
+}
+
+:global([data-theme='dark']) .summaryLabel,
+:global([data-theme='dark']) .artHeader span {
+  color: #72d7ea;
+}
+
+:global([data-theme='dark']) .summaryTop strong,
+:global([data-theme='dark']) .featureList,
+:global([data-theme='dark']) .artHeader strong {
+  color: #f3fbfd;
+}
+
+:global([data-theme='dark']) .artCard {
+  background: #0f1d24;
+}
+
+:global([data-theme='dark']) .artHeader {
+  border-bottom-color: rgba(121, 188, 204, 0.14);
+  background: linear-gradient(135deg, #14313c 0%, #10252d 100%);
 }
 
 @media screen and (max-width: 996px) {
