@@ -7,7 +7,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config: Config = {
   title: 'HRM Documentation',
   tagline: 'HybriTech',
-  favicon: 'img/mes-logo.png',
+  favicon: 'img/hrmlogo.png',
 
   customFields: {
     preparedBy: 'HybriTech',
@@ -82,7 +82,7 @@ const config: Config = {
       title: 'HR Docs',
       logo: {
         alt: 'HR documentation logo',
-        src: 'img/mes-logo.png',
+        src: 'img/hrmlogo.png',
       },
       items: [
         {
